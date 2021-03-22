@@ -1,0 +1,18 @@
+server:
+  port: 9001
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://81.71.1.169:3306/allen_db?serverTimezone=GMT%2b8
+    username: root
+    password: 1qaz!QAZ
+  redis:
+    database: 0
+    host: 81.71.1.169
+    port: 6379
+    password: allen123
+
